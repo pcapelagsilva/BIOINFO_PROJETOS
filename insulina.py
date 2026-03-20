@@ -1,21 +1,19 @@
 from Bio.Seq import Seq
 from Bio.SeqUtils import ProtParam
 
-# Sequência de DNA da Insulina
+# Definição da sequencia de DNA da Insulina B:
 dna_seq = Seq("TTTGTGAACCAACACCTGTGCGGCTCACACCTGGTGGAAGCTCTCTACCTAGTGTGCGGGGAACGAGGCTTCTTCTACACACCCAAGACC")
 
-# DNA da Insulina convertido em proteína
+#Tradução para Proteina
 proteina = dna_seq.translate()
 
-# Tamanho da proteína
-tamanho = len(proteina)
-
-# Peso molecular da Insulina
+# Peso da proteína
 peso = ProtParam.ProteinAnalysis(str(proteina))
 
-# Verficação de Cisteína (C) na Insulina
-tem_cisteina = bool("C" in proteina)
+#Tamanho da proteína:
+tamanho = len(proteina)
 
-#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+# Verificação se a Cisteína (C):
+tem_cisteina = "C" in proteina
 
-print('A sequência de DNA da insulina é dada pela sequência {}, sendo sua proteína a seguinte: {}. O tamanho dessa proteína é de {} e seu peso {}Da. Quando perguntado se em sua sequência existe a presença de Cisteina (C) a resposta é {}'.format(dna_seq, proteina, tamanho, peso.molecular_weight(), tem_cisteina))
+print("A sequência de DNA da Insulina B é {}. Quando traduzida em forma de proteína sua sequência se torna {}. Essa proteína pesa no total: {} Da e possui {} aminoácidos de comprimento. Para tirar a dúvida observamos se a proteína em questão obtinha cisteína em sua composição e chegamos a conclusão que esta afirmativa é {}.".format(dna_seq, proteina, peso.molecular_weight() , tamanho, tem_cisteina))
