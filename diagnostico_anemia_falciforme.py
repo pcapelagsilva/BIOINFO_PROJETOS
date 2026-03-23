@@ -54,5 +54,5 @@ sequencia = ATGGTGCACCTGACTCCTGTGGAG
 paciente = Pedro
 sequencia = ATGCGGATGATCGGATCGATAGCTAGCGATGAC
 
-paciente = Allan
+paciente = Maria
 sequencia = ATGCCGTAGCTCGTACGATAGATCATATGCTATAGCTAGATCG'''
