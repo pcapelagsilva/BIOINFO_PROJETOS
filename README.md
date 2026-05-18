@@ -21,7 +21,7 @@ Central repository for projects applied to Molecular Biology and Genetics, devel
 
 *Objective: To utilize programming to accelerate genetic diagnostics and the understanding of pathologies.*
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 # 🧪 Projetos de Bioinformática
 
@@ -32,6 +32,9 @@ Repositório central de projetos aplicados à Biologia Molecular e Genética, de
 ### 🩸 Hematologia Molecular
 * **Diagnóstico de Anemia Falciforme**: Script focado na identificação da mutação pontual no gene HBB.
 * **Insulina**: Análise de sequências e propriedades da proteína.
+
+### 🎀 Genômica do Câncer (Oncogenômica)
+* **Análise de Câncer de Mama:** Triagem computacional e análise de dados focada em oncogenes, genes supressores de tumor (como BRCA1/BRCA2) ou perfis de expressão relacionados ao desenvolvimento do câncer de mama.
 
 ### 🦠 Virologia (SARS-CoV-2)
 * **Análise Genómica**: Manipulação de ficheiros `.gb` (GenBank) para estudo do genoma viral e diagnóstico.
