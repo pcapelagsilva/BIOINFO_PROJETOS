@@ -1,3 +1,28 @@
+# 🧪 Bioinformatics Projects
+
+Central repository for projects applied to Molecular Biology and Genetics, developed during my undergraduate studies.
+
+## 🧬 Technological and Biological Highlights:
+
+### 🩸 Molecular Hematology
+* **Sickle Cell Anemia Diagnostics:** A script focused on identifying the point mutation within the HBB gene.
+* **Insulin:** Analysis of protein sequences and molecular properties.
+
+### 🎀 Cancer Genomics (Oncogenomics)
+* **Breast Cancer Analysis:** Computational screening and data analysis focused on oncogenes, tumor suppressor genes (such as BRCA1/BRCA2), or expression profiles related to breast cancer development.
+
+### 🦠 Virology (SARS-CoV-2)
+* **Genomic Analysis:** Manipulation of `.gb` (GenBank) files for viral genome research and diagnostics.
+
+### ⚙️ Tools
+* **Central Dogma:** Automation of DNA sequence transcription and translation.
+
+---
+
+*Objective: To utilize programming to accelerate genetic diagnostics and the understanding of pathologies.*
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 # 🧪 Projetos de Bioinformática
 
 Repositório central de projetos aplicados à Biologia Molecular e Genética, desenvolvidos durante a minha graduação.
