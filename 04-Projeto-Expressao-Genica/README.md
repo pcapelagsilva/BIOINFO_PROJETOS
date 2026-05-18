@@ -152,6 +152,7 @@ O dataset contém níveis simulados de expressão gênica de genes relacionados 
 Instale as bibliotecas:
 ```bash
 pip install pandas matplotlib
+```
 
 ## Autor
 Pedro Silva  
